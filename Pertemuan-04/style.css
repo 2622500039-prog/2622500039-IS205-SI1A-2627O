@@ -45,7 +45,7 @@ header h1 {
 }
 
 * {
-   box -sizing: border-box;
+   box-sizing: border-box;
 }
 
 #home {
