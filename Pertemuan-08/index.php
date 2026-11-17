@@ -1,7 +1,7 @@
 <?php
 // ====== GANTI DATA INI ======
-$nim  = "NIM_ANDA";
-$nama = "Nama Lengkap Anda";
+$nim  = "2226500039";
+$nama = "farhat fadhlurahmaan tyas siregar";
 // ============================
 $page = $_GET['page'] ?? 'home';
 $allowed = ['home', 'profile', 'registrasi', 'kontak'];
@@ -12,7 +12,7 @@ if (!in_array($page, $allowed)) $page = 'home';
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kedai Mie Ayam Pak Joyo</title>
+<title>Kedai Mie Ayam Pak farhat</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,7 +28,7 @@ if (!in_array($page, $allowed)) $page = 'home';
       <rect x="70" y="14" width="4" height="40" rx="2" fill="#6d4c41" transform="rotate(25 72 34)"/>
     </svg>
     <div>
-      <h1>Kedai Mie Ayam Pak Joyo</h1>
+      <h1>Kedai Mie Ayam Pak farhat</h1>
       <p>Hangat, gurih, dan bikin nagih sejak 2010</p>
     </div>
   </header>
@@ -65,13 +65,6 @@ if (!in_array($page, $allowed)) $page = 'home';
         <tr><td>3</td><td>Mie Ayam Pangsit</td><td>Original + pangsit goreng</td><td>Rp 19.000</td></tr>
         <tr><td>4</td><td>Es Teh Manis</td><td>Segar dan dingin</td><td>Rp 5.000</td></tr>
       </table>
-
-      <h3>Video Profil</h3>
-      <video controls width="100%" style="max-width:480px">
-        <source src="video.mp4" type="video/mp4">
-        Browser Anda tidak mendukung video.
-      </video>
-      <p><small>*Letakkan file <code>video.mp4</code> di folder yang sama.</small></p>
 
 <?php elseif ($page == 'profile'): ?>
       <h2>Profile</h2>
